@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/devfullcycle/imersao22/go-gateway/internal/domain"
+	"github.com/mateusalecrin/payment-gateway/go-api/internal/domain"
 )
 
 type AccountRepository struct {

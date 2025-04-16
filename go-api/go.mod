@@ -1,4 +1,4 @@
-module github.com/devfullcycle/imersao22/go-gateway
+module github.com/mateusalecrin/payment-gateway/go-api
 
 go 1.24.2
 

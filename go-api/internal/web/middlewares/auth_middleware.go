@@ -3,8 +3,8 @@ package middlewares
 import (
 	"net/http"
 
-	"github.com/devfullcycle/imersao22/go-gateway/internal/domain"
-	"github.com/devfullcycle/imersao22/go-gateway/internal/service"
+	"github.com/mateusalecrin/payment-gateway/go-api/internal/domain"
+	"github.com/mateusalecrin/payment-gateway/go-api/internal/service"
 )
 
 type AuthMiddleware struct {

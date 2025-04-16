@@ -6,11 +6,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/devfullcycle/imersao22/go-gateway/internal/repository"
-	"github.com/devfullcycle/imersao22/go-gateway/internal/service"
-	"github.com/devfullcycle/imersao22/go-gateway/internal/web/server"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
+	"github.com/mateusalecrin/payment-gateway/go-api/internal/repository"
+	"github.com/mateusalecrin/payment-gateway/go-api/internal/service"
+	"github.com/mateusalecrin/payment-gateway/go-api/internal/web/server"
 )
 
 func getEnv(key, defaultValue string) string {

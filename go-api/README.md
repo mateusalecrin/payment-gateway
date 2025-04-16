@@ -106,6 +106,9 @@ Veja o arquivo `test.http` para exemplos de requisições HTTP.
 1. **Pré-requisitos:**
    - Go 1.24+
    - Docker (para o banco de dados)
+   - [golang-migrate](https://github.com/golang-migrate/migrate) (para migrações do banco de dados)
+     - Instalação: `go install -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest`
+   - Extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) (opcional, para testes de endpoints)
 
 2. **Suba o banco de dados:**
    ```sh
