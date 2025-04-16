@@ -113,7 +113,11 @@ docker-compose up -d
 ```
 
 3. **Configure as variáveis de ambiente:**
-   - Copie o arquivo `.env` e ajuste se necessário.
+   - Copie o arquivo `.env-example` para `.env`:
+     ```sh
+     cp .env-example .env
+     ```
+   - Edite o arquivo `.env` e preencha os valores conforme necessário.
 
 4. **Instale as dependências:**
    ```sh
